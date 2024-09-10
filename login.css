@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(/Images/123.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* HEADER */
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: handjet;
+  color: lime;
+  font-size: 50px;
+  padding: 10px;
+}
+.title h1 {
+  background-color: #00000094;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* main */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 50px;
+}
+.login-form h1 {
+  color: lime;
+  font-family: handjet;
+  font-size: 100px;
+  font-weight: bold;
+  background-color: #00000094;
+  padding: 20px;
+  border-radius: 20px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.login input {
+  background-color: #00ff00ab;
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 100px;
+  font-family: handjet;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: #222222;
+}
+.login button {
+  background-color: #00ff00ab;
+  height: 60px;
+  width: 110px;
+  border: none;
+  font-size: 800;
+  font-size: 30px;
+  font-family: handjet;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.24s;
+}
+.login button:hover {
+  background-color: #006b00;
+  color: white;
+}
+.login button:active {
+  background-color: orange;
+  transition: 0.25s;
+}
+.other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.other p {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: handjet;
+}
+.other a {
+  text-decoration: none;
+  color: lime;
+  transition: 0.24s;
+}
+.other a:hover {
+  color: white;
+}
+.other a:active {
+  color: orange;
+  transition: 0.25s;
+}

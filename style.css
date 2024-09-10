@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+/* HEADER */
+.logo-section {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+}
+.logo-section h1 {
+  font-weight: bold;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: lime;
+  transition: 0.25s;
+  font-family: handjet;
+}
+.logo-section h1,
+a {
+  text-decoration: none;
+}
+.logo-section h1:hover {
+  color: #009b00;
+}
+.logo-section h1:active {
+  color: red;
+  transition: 0.25s;
+}
+.logo-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: pirata one;
+}
+li {
+  color: lime;
+  transition: 0.25s;
+}
+ul a {
+  text-decoration: none;
+  color: lime;
+}
+.logo-section li,
+a:hover {
+  color: #009b00;
+}
+.logo-section li,
+a:active {
+  color: red;
+  transition: 0.25s;
+}
+
+/* MAIN */
+.welcome {
+  border-radius: 10px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(/Images/GIF.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome h1 {
+  border-radius: 20px;
+  padding: 20px;
+  color: lime;
+  background-color: #000000bb;
+  font-family: handjet;
+  font-size: 100px;
+}
+.welcome a {
+  text-decoration: none;
+  color: lime;
+  transition: 0.25s;
+}
+.welcome a:hover {
+  color: #008600;
+}
+.welcome a:active {
+  color: red;
+  transition: 0.25s;
+}
